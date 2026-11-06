@@ -29,14 +29,11 @@ in the app to open it in Notepad.
 
 ## Run
 
-Grab the latest `OCKiller-win-x64-v*.zip` from the **Releases** page, extract it,
-and run `OCKiller.exe` (or `OCKiller.bat`).
+Grab the latest `OCKiller-win-x64-v*.zip` from the
+[Releases page](https://github.com/maewmod/OCKiller/releases/latest),
+extract it, and run `OCKiller.exe` (or `OCKiller.bat`).
 
-Or double-click the launcher next to the project:
-
-```
-OCKiller\dist\OCKiller.exe
-```
+From a local build, double-click `dist\OCKiller.exe` or run `OCKiller.bat`.
 
 Close opencode before resetting — the IP changes for the whole device.
 
