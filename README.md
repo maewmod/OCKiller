@@ -1,7 +1,6 @@
 # OCKiller (WinUI 3)
 
 A minimal WinUI 3 utility that changes your public IP through Cloudflare WARP.
-It is a native .NET 10 port of the original `Reset-Usage-GUI.ps1` (PowerShell + WPF).
 
 ## What it does
 
@@ -40,8 +39,8 @@ Close opencode before resetting — the IP changes for the whole device.
 ## Build
 
 ```powershell
-dotnet build .\OCKiller\OCKiller.csproj -c Debug
-dotnet publish .\OCKiller\OCKiller.csproj -c Release -r win-x64 --self-contained true -p:WindowsAppSDKSelfContained=true -o .\OCKiller\dist
+dotnet build .\OCKiller.csproj -c Debug
+dotnet publish .\OCKiller.csproj -c Release -r win-x64 --self-contained true -p:WindowsAppSDKSelfContained=true -o .\dist
 ```
 
 ## Notes
